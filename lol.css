@@ -1,0 +1,85 @@
+.animate {
+    animation: box1and2 5000;
+  }
+  
+  .animate2 {
+    animation: box2and3 5000;
+  }
+  
+  .animate3 {
+    animation: box3and4 5000;
+  }
+  
+  .animate4 {
+    animation: box4and5 5000;
+  }
+  
+  .wrong {
+    animation: wrong;
+  }
+  
+  @keyframes wrong {
+    0% {
+      border-color: red;
+    }
+  }
+  
+  @keyframes box2and3 {
+    0%{
+        margin-left : -132px;
+    }
+    100% {
+      margin-left: -45px;
+    }
+  }
+  
+  @keyframes box1and2 {
+    0%{
+        margin-left: -132px;;
+    }
+    100% {
+      margin-left: -132px;
+    }
+  }
+  
+  @keyframes box3and4 {
+    0%{
+        margin-left: -45px;
+    }
+    
+    100% {
+      margin-left: 45px;
+    }
+  }
+  
+  @keyframes box4and5 {
+
+    0%{
+        margin-left: 45px;
+    }
+
+    100% {
+      margin-left: 132px;
+    }
+  }
+  
+  /* for (var i = 0; i < 5; i++) 
+  {
+    if(i<5 && i>3){
+    str.replace(/\d+/,i);
+    console.log(str);
+    cursor.style.animation = str;
+    }
+    
+    for (var j = 0; j < 5 - i - 1; j++) {
+      let val1 = parseInt(arr[j].value);
+      let val2 = parseInt(arr[j + 1].value);
+      if (val1 > val2) {
+        cursor.style.borderColor = "red";
+        var temp = arr[j].value;
+        arr[j].value = arr[j + 1].value;
+        arr[j + 1].value = temp;
+        
+      }
+    }
+  } */

@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+  }
+  .cursor {
+    border-style: solid;
+    border-color: green;
+    height: 42px;
+    width: 84px;
+    margin-left: -132px;
+    animation-fill-mode: forwards;
+    animation-duration : 3s;
+    border-radius: 15%;
+  
+  }
+  .box {
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+  }
+  
+  .array {
+    position: absolute;
+  }
+  
+  .bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+.anim1{animation-name : anim1;}
+.anim2{animation-name : anim2;}
+.anim3{animation-name: anim3;}
+.anim4{animation-name : anim4;}
+
+
+@keyframes anim1 {
+  form{margin-left: -132px;
+  }
+  to{
+    margin-left: -132px;
+  }
+}
+
+ @keyframes anim2 {
+   from{margin-left: -132px;}
+    to { margin-left: -45px;}   
+ }
+
+ @keyframes anim3 {
+  from{
+      margin-left: -45px;
+  }
+  
+  to {
+    margin-left: 45px;
+  }
+}
+
+@keyframes anim4 {
+
+  from{
+      margin-left: 45px;
+  }
+
+  to {
+    margin-left: 132px;
+  }
+}
