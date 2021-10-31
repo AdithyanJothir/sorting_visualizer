@@ -33,7 +33,7 @@ async function swap(){
       cursor.classList.add(anims[j]);
       cursor.style.marginLeft = borders[j];
       cursor.classList.remove(anims[j]);
-      await sleep(3000);
+      await sleep(1000);
       if (val1 > val2) {
         cursor.style.borderColor = "red";
         await sleep(200);
