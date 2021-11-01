@@ -7,18 +7,20 @@
   .cursor {
     border-style: solid;
     border-color: green;
-    height: 42px;
-    width: 84px;
-    margin-left: -132px;
+    height: 70px;
+    width: 150px;
+    margin-left: -223px;
     animation-fill-mode: forwards;
     animation-duration : 1s;
-    border-radius: 15%;
+    border-radius: 5%;
   
   }
   .box {
-    height: 40px;
-    width: 40px;
-    border-radius: 20%;
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    margin-left: 15px;
+    text-align: center;
   }
   
   .array {
@@ -39,35 +41,35 @@
 
 
 @keyframes anim1 {
-  form{margin-left: -132px;
+  form{margin-left: -223px;
   }
   to{
-    margin-left: -132px;
+    margin-left: -223px;
   }
 }
 
  @keyframes anim2 {
-   from{margin-left: -132px;}
-    to { margin-left: -45px;}   
+   from{margin-left: -223px;}
+    to { margin-left: -64px;}   
  }
 
  @keyframes anim3 {
   from{
-      margin-left: -45px;
+      margin-left: -64px;
   }
   
   to {
-    margin-left: 45px;
+    margin-left: 94px;
   }
 }
 
 @keyframes anim4 {
 
   from{
-      margin-left: 45px;
+      margin-left: 94px;
   }
 
   to {
-    margin-left: 132px;
+    margin-left: 252px;
   }
 }

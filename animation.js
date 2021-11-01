@@ -14,7 +14,7 @@ var box5 = document.getElementById("box5");
 
 const arr = [box1, box2, box3, box4, box5];
 var anims = ["anim1","anim2","anim3","anim4"];
-var borders = [-132,-45,45,132];
+var borders = [-223,-64,95,254];
 var i=0 , j=0;
 
 
