@@ -11,10 +11,15 @@ var box4 = document.getElementById("box4");
 var box5 = document.getElementById("box5");
 
 
+const first = getComputedStyle(document.documentElement).getPropertyValue('--first'),
+second =getComputedStyle(document.documentElement).getPropertyValue('--second'),
+third = getComputedStyle(document.documentElement).getPropertyValue('--third'),
+fourth =  getComputedStyle(document.documentElement).getPropertyValue('--fourth');
+
 
 const arr = [box1, box2, box3, box4, box5];
 var anims = ["anim1","anim2","anim3","anim4"];
-var borders = [-223,-64,95,254];
+var borders = [first,second,third,fourth];
 var i=0 , j=0;
 
 

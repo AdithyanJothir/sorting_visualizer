@@ -1,5 +1,14 @@
+:root{
+  --first : -223px;
+  --second : -63px;
+  --third : 94px;
+  --fourth : 252px;
+}
+
 body{
-  background-image: url("background.png");
+  background-image: url("background1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -18,7 +27,7 @@ body{
     border-color: #42ff58;
     height: 70px;
     width: 150px;
-    margin-left: -223px;
+    margin-left: var(--first);
     animation-fill-mode: forwards;
     animation-duration : 1s;
     border-radius: 5%;
@@ -33,6 +42,7 @@ body{
     text-align: center;
     background-color: #dbdbdb;
     border-color: #02abe8;
+    font-family: 'Lobster', cursive;
    
   }
   
@@ -64,35 +74,62 @@ body{
 
 
 @keyframes anim1 {
-  form{margin-left: -223px;
+  form{margin-left: var(--first);
   }
   to{
-    margin-left: -223px;
+    margin-left: var(--first);
   }
 }
 
  @keyframes anim2 {
-   from{margin-left: -223px;}
-    to { margin-left: -64px;}   
+   from{margin-left: var(--first);}
+    to { margin-left: var(--second); }   
  }
 
  @keyframes anim3 {
   from{
-      margin-left: -64px;
+      margin-left: var(--second);;
   }
   
   to {
-    margin-left: 94px;
+    margin-left: var(--third);;
   }
 }
 
 @keyframes anim4 {
 
   from{
-      margin-left: 94px;
+      margin-left: var(--third);;
   }
 
   to {
-    margin-left: 252px;
+    margin-left: var(--fourth);
   }
+}
+
+@media all and ( max-width :1000px){
+
+
+  .container{
+    width: 90vw;
+    height: 20vh;
+  }
+
+  .box{
+    height: 100px;
+    width: 100px;
+  }
+
+  .cursor{
+    height: 120px;
+    width: 235px;
+  }
+
+  :root {
+    --first : -345px;
+    --second : -105px;
+    --third : 130px;
+    --fourth : 370px;
+  }
+
 }
