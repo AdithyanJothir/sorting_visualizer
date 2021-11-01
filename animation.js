@@ -35,12 +35,12 @@ async function swap(){
       cursor.classList.remove(anims[j]);
       await sleep(1000);
       if (val1 > val2) {
-        cursor.style.borderColor = "red";
+        cursor.style.borderColor = "#f23535";
         await sleep(200);
         var temp = arr[j].value;
         arr[j].value = arr[j + 1].value;
         arr[j + 1].value = temp;
-        cursor.style.borderColor = "green";
+        cursor.style.borderColor = "#42ff58";
        
       }
       
