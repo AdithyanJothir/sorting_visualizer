@@ -116,20 +116,21 @@ body{
   }
 
   .box{
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
   }
 
   .cursor{
-    height: 120px;
-    width: 235px;
+    height: 50px;
+    width: 110px;
   }
 
   :root {
-    --first : -345px;
-    --second : -105px;
-    --third : 130px;
-    --fourth : 370px;
+    --first : -164px;
+    --second : -45px;
+    --third : 73px;
+    --fourth : 192px;
   }
 
 }
+
